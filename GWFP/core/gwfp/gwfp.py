@@ -102,6 +102,3 @@ def main():
     if PLATFORM_IS_SUPPORTED:
         save_all_data()
         exit_r('\n[+] Process ended.')
-
-if __name__ == '__main__':
-    main()

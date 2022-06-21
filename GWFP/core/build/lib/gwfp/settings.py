@@ -1,5 +1,5 @@
 name = 'gwfp'
-version = '0.0.1'
+version = '0.0.2'
 description = 'Get forgotten connected wifi passwords directly.'
 author = 'RaghavGohil'
 author_email = 'raghav15102004@gmail.com'

