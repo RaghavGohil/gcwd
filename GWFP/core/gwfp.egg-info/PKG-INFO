@@ -1,39 +1,42 @@
 Metadata-Version: 2.1
 Name: gwfp
 Version: 0.0.2
-Summary: Get forgotten connected wifi passwords directly.
+Summary: This package is made to acqire all the forgotten wifi passwords and related data and store it in your desired place.
+You can even store it in your pendrive.
+Usually, if the location is not specifed, the output file containing the data will be stored in the downloads folder.
+You can go full-on hacker mode and clone the data from a targer-pc in mere seconds.
 Home-page: https://github.com/RaghavGohil/GWFP
 Author: RaghavGohil
-Author-email: raghav15102004@gmail.com
+Author-email: raghavgohil2004@gmail.com
 License: MIT LICENSE
+Description: 
+        # GWFP
+        * GWFP is a short abbreviation for 'Get Forgotten WIFI Password'
+        * This tool to get forgotten wifi passwords quickly and easily.
+        
+        # Version updates:-
+        * Fresh gwfp package only available for windows.
+        
+        # Supported devices:-
+        * Windows
+        
+        # Dependencies:-
+        * re(regex)
+        
+        # Installation:-
+        * Install this tool with the *pip* command
+        ```pip install gwfp```
+        
+        # Usage:-
+        * Run the gwfp command to generate an output file containing all the credentials.
+        * View the credentials in the downloads folder of your system.
+        
+        # Developer contact:-
+        * Contact at raghav15102004@gmail.com
 Keywords: Forgotten wifi password get
+Platform: UNKNOWN
 Classifier: Development Status :: 1 - Planning
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: Microsoft
 Requires-Python: >=3.0
 Description-Content-Type: text/markdown
-
-
-# GWFP
-* GWFP is a short abbreviation for 'Get Forgotten WIFI Password'
-* This tool to get forgotten wifi passwords quickly and easily.
-
-# Version updates:-
-* Fresh gwfp package only available for windows.
-
-# Supported devices:-
-* Windows
-
-# Dependencies:-
-* re(regex)
-
-# Installation:-
-* Install this tool with the *pip* command
-```pip install gwfp```
-
-# Usage:-
-* Run the gwfp command to generate an output file containing all the credentials.
-* View the credentials in the downloads folder of your system.
-
-# Developer contact:-
-* Contact at raghav15102004@gmail.com

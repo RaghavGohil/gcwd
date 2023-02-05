@@ -1,2 +1,4 @@
-[console_scripts]
-gwfp = gwfp.gwfp:main
+
+        [console_scripts]
+        gwfp=gwfp.gwfp:main
+    
