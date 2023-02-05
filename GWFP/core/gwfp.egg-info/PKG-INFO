@@ -3,8 +3,8 @@ Name: gwfp
 Version: 0.0.2
 Summary: This package is made to acqire all the forgotten wifi passwords and related data and store it in your desired place.
 You can even store it in your pendrive.
-Usually, if the location is not specifed, the output file containing the data will be stored in the downloads folder.
-You can go full-on hacker mode and clone the data from a targer-pc in mere seconds.
+Usually, if the location and name of the file is not specifed, the output file containing the data will be stored in the downloads folder with the name 'out.txt'.
+You can go full-on hacker mode and clone the data from a target-pc in mere seconds.
 Home-page: https://github.com/RaghavGohil/GWFP
 Author: RaghavGohil
 Author-email: raghavgohil2004@gmail.com
