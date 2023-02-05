@@ -96,7 +96,7 @@ def save_all_data(output_file_name: str,output_file_location: str):#saves the da
 
 def help():
     print("\n@author: Raghav Gohil")
-    print("\nAbout:\nThis package is made to acqire all the forgotten wifi passwords and related data and store it in your desired place.\nYou can even store it in your pendrive.\nUsually, if the location and name of the file is not specifed, the output file containing the data will be stored in the downloads folder with the name \'out.txt\'.\nYou can go full-on hacker mode and clone the data from a target-pc in mere seconds.")
+    print("\nAbout:\nThis package is made to acquire all the forgotten wifi passwords and related data and store it in your desired place.\nYou can even store it in your pendrive.\nUsually, if the location and name of the file is not specifed, the output file containing the data will be stored in the downloads folder with the name \'out.txt\'.\nYou can go full-on hacker mode and clone the data from a target-pc in mere seconds.")
     print("\nOptions:\n-h : help (cannot be used with multiple options).\n-o<whitespace><name>: specify output file name.\n-ol<whitespace><location>: specify output location.")
     print('\n')
 
