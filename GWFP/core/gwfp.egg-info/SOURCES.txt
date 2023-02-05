@@ -1,5 +1,5 @@
 MANIFEST.in
-README.md
+README.rst
 setup.py
 gwfp/__init__.py
 gwfp/gwfp.py

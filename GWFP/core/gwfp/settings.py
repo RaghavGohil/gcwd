@@ -1,6 +1,6 @@
 name = 'gwfp'
 version = '0.0.2'
-description = 'This package is made to acquire all the forgotten wifi passwords and related data and store it in your desired place.\nYou can even store it in your pendrive.\nUsually, if the location and name of the file is not specifed, the output file containing the data will be stored in the downloads folder with the name \'out.txt\'.\nYou can go full-on hacker mode and clone the data from a target-pc in mere seconds.'
+description = 'Get Connected Wi-fi data easily.'
 author = 'RaghavGohil'
 author_email = 'raghavgohil2004@gmail.com'
 project_url = 'https://github.com/RaghavGohil/GWFP'
@@ -17,6 +17,6 @@ exclude_packages = ('tests')
 license = 'MIT LICENSE'
 license_files = ('LICENSE.txt')
 keywords = 'Forgotten wifi password get'
-install_requires = ['regex>=2022.3.15']
+install_requires = ['regex>=2022.3.15','readme_renderer >= 21.0']
 include_package_data = True
 python_requires='>=3.0'
