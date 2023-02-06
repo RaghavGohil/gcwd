@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+gcwd/__init__.py
+gcwd/gcwd.py
+gcwd/settings.py
+gcwd.egg-info/PKG-INFO
+gcwd.egg-info/SOURCES.txt
+gcwd.egg-info/dependency_links.txt
+gcwd.egg-info/entry_points.txt
+gcwd.egg-info/requires.txt
+gcwd.egg-info/top_level.txt

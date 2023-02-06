@@ -1,10 +1,10 @@
 from importlib.metadata import entry_points
-from gwfp import settings
+from gcwd import settings
 from setuptools import setup,find_packages
 
-ld_type = 'text/x-rst'
+ld_type = 'text/markdown'
 
-with open('README.rst') as rm:
+with open('README.md') as rm:
     ld = rm.read()
 
 setup(
