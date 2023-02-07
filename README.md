@@ -54,6 +54,7 @@ run.bat file is as follows: (You can download it from the github.)
 ```
 pip install gcwd
 gcwd
+exit
 ```
 
   
